@@ -1,0 +1,14 @@
+db/
+incremental_db/
+output_files/
+simulation/
+*.bak
+*.rpt
+*.sof
+*.wlf
+*.vcd
+*.log
+*.tmp
+*.qws
+devkits/
+.qsys_edit/
