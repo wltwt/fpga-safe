@@ -84,7 +84,6 @@ begin
 				-- oppdater temp kode-array
 				temp_codes(d_id) <= temp_codes(d_id) + 1;
 			end if;
-			rst_open <= '0'; -- lukk safe
 		end if;
 		-- gjør klar verdiendring til neste klokkesyklys slik at incr_key = 0
 		-- incr_key blir 0 på neste stigende klokkeflanke
